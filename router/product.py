@@ -46,3 +46,4 @@ def delete_product(product_id: int, db: MySQLConnection = Depends(get_db_connect
     cursor.close()
     return {"detail": "Product deleted successfully"}
 
+"hola"
